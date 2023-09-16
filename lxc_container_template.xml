@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LXC version="0.1">
+  <Name>HomeAssistantCore</Name>
+  <Distribution>debian</Distribution>
+  <Release>bookworm</Release>
+  <Architecture>amd64</Architecture>
+  <Repository>https://github.com/ich777/unraid_lxc_homeassistant_core</Repository>
+  <Description>HomeAssistant Core</Description>
+  <Autostart>true</Autostart>
+  <Beta>True</Beta>
+  <Support>https://support.me.pls</Support>
+  <Source>https://www.home-assistant.io/</Source>
+  <Project>https://github.com/home-assistant/core</Project>
+  <Overview>This LXC container contains Home Assistnat Core.&#xD;
+Please note that keepalived is not installed by default</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:8123 </WebUI>
+  <Icon>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/480px-Home_Assistant_Logo.svg.png</Icon>
+  <DonateText>If you like my work (or not) please </DonateText>
+  <DonateLink>https://payme.now/pls</DonateLink>
+  <Requires>unRAID server</Requires>
+</LXC>
