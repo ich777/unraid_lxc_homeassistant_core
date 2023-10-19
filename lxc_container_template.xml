@@ -15,7 +15,7 @@
 Please note that keepalived is not installed by default</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:8123 </WebUI>
-  <Icon>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/480px-Home_Assistant_Logo.svg.png</Icon>
+  <Icon>https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/home-assistant.png</Icon>
   <DonateText>If you like my work (or not) please </DonateText>
   <DonateLink>https://payme.now/pls</DonateLink>
   <Requires>unRAID server</Requires>
