@@ -7,6 +7,7 @@ Type=simple
 User=%i
 WorkingDirectory=/home/%i/.homeassistant
 ExecStart=/opt/homeassistant/bin/hass -c "/home/%i/.homeassistant"
+Environment="PATH=/opt/homeassistant/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/homeassistant/.local/bin"
 RestartForceExitStatus=100
 
 [Install]
